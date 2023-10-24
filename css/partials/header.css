@@ -1,0 +1,409 @@
+header {
+  width: 100%;
+  height: 170px;
+  background-color: #ffffff;
+  box-shadow: 0 0.7px 1px rgb(175, 174, 174);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+header > div.top {
+  width: inherit;
+  height: 60px;
+  /* position: sticky; */
+
+}
+header > div.top > img {
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+header > div.bottom {
+  width: inherit;
+  height: calc(var(--header) - 60px);
+  /* position: sticky; */
+}
+header > div.bottom > div.bottomTop {
+  width: inherit;
+  height: calc(var(--header) - 60px - 40px); /* menu height is 40px*/
+}
+header > div.bottom > div.bottomTop > div.logo {
+  width: 10%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -3px;
+  vertical-align: top;
+  text-align: center;
+  padding-right: 15px;
+}
+header > div.bottom > div.bottomTop > div.logo > svg {
+  margin-top: 20px;
+}
+/* header>div.bottom>div.bottomTop>div.logo>svg>g>g{
+    fill: green;
+} */
+
+header > div.bottom > div.bottomTop > div.search {
+  width: 75%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -3px;
+  vertical-align: top;
+  padding-right: 30px;
+}
+header > div.bottom > div.bottomTop > div.search > input[type="text"] {
+  width: 600px;
+  height: 40px;
+  margin-top: 15px;
+  background-color: #f1f2f4;
+  border: unset;
+  outline: unset;
+  border-radius: 7px;
+  padding-right: 20px;
+  font-family: yekan;
+  font-size: 13px;
+  color: gray;
+  transition: 300ms;
+}
+header
+  > div.bottom
+  > div.bottomTop
+  > div.search
+  > input[type="text"]::placeholder {
+  font-size: 12px;
+  color: #ababab;
+}
+header > div.bottom > div.bottomTop > div.search > input[type="text"]:focus {
+  color: #2b2b2b;
+  width: 800px;
+  box-shadow: 5px 5px 25px lightgray;
+}
+
+header > div.bottom > div.bottomTop > div.login {
+  width: 15%;
+  height: inherit;
+  display: inline-block;
+  margin-right: -3px;
+  vertical-align: top;
+  /* background-color: orange; */
+  position: relative;
+}
+header > div.bottom > div.bottomTop > div.login > a {
+  display: block;
+  width: 130px;
+  height: 40px;
+  color: #2b2b2b;
+  /* margin: 0 auto; */
+  background-color: #ffffff;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: Yekan;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  line-height: 40px;
+}
+header > div.bottom > div.bottomTop > div.login > a > svg {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+header > div.bottom > div.bottomTop > div.login > a[href="#"] {
+  display: block;
+  width: 60px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  /* background-color: green; */
+  margin-top: 15px;
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-right: 5px;
+  padding-right: 10px;
+}
+header > div.bottom > div.bottomBottom {
+  width: 100%;
+  height: 40px;
+  /* position: relative; */
+}
+header > div.bottom > div.bottomBottom > nav {
+  width: inherit;
+  height: inherit;
+}
+header > div.bottom > div.bottomBottom > nav > div.headline {
+  width: inherit;
+  height: inherit;
+  padding-right: 15px;
+  box-sizing: border-box;
+  position: relative;
+}
+header > div.bottom > div.bottomBottom > nav > div.headline > div.inHeadline {
+  display: inline-block;
+  width: auto;
+  height: inherit;
+}
+header > div.bottom > div.bottomBottom > nav > div.headline > div.inHeadline > a {
+  display: block;
+  width: auto;
+  height: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: Yekan;
+  text-decoration: none;
+  line-height: 40px;
+  color: #515256;
+  padding: 0px 5px;
+  transition: 300ms;
+}
+header > div.bottom > div.bottomBottom > nav > div.headline > div.inHeadline > a > svg {
+  transition: 300ms;
+  vertical-align: middle;
+  margin-bottom: 5px;
+
+}
+header
+  > div.bottom
+  > div.bottomBottom
+  > nav
+  > div.headline
+  > div.inHeadline
+  > a:hover
+  > svg {
+  fill: blue !important;
+}
+header > div.bottom > div.bottomBottom > nav > div.headline > div.inHeadline:hover > a  {
+color: blue !important;
+}
+
+header
+  > div.bottom
+  > div.bottomBottom
+  > nav
+  > div.headline
+  > div.firstMenu
+  > a {
+  font-size: 15px;
+  font-weight: bold;
+}
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%% sub menu %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu{
+  width: 96%;
+  background-color: aqua;
+  position: absolute;
+  right: 20px;
+  z-index: 2;
+  border-radius: 10px;
+  background-color: #ffffff;
+  transition: 300ms;
+  display: none;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline:hover>div.subMenu{
+  display: block;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2{
+  width: 20%;
+  height: 70vh;
+  padding-left: 15px;
+  text-align: right;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  background-color: #ffffff;
+  direction: ltr;
+  overflow: auto;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title{ 
+    padding-right: 15px;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle{  
+height: 40px;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>a{  
+text-decoration: none;
+display: block;
+font-family: Yekan;
+font-size: 14px;
+  font-weight: bold;
+  line-height: 40px;
+  color: #424750;
+  background-color: lightgray;
+  
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>a:hover{  
+  background-color: #ffffff;
+  color: #ef394e;
+
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>a>svg{  
+vertical-align: middle;
+width: 25px !important;
+height: 25px !important;
+margin-left: 5px;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>a:hover>svg{  
+  fill: #ef394e !important;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@ sub3 menu     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3{  
+  width: 80%;
+    height: 70vh;
+  overflow: auto;
+position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  background-color: #ffffff;
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+  display: none;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock{  
+  width: 80%;
+  height: 70vh;
+  overflow: auto;
+position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  background-color: #ffffff;
+  /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
+  /* display: none; */
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle:hover>div.subMenu3{
+display: block;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3>div.topSubMenu3{  
+margin-top: 7px;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock>div.topSubMenu3{  
+margin-top: 7px;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3>div.topSubMenu3>a{  
+text-decoration: none;
+height: 40px;
+font-family: Yekan;
+font-size: 12px;
+color: #008eb2;
+} 
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock>div.topSubMenu3>a{  
+text-decoration: none;
+height: 40px;
+font-family: Yekan;
+font-size: 12px;
+color: #008eb2;
+} 
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3>div.topSubMenu3>a>svg{  
+vertical-align: top;
+ width: 25px !important;
+height: 25px !important;
+} 
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock>div.topSubMenu3>a>svg{  
+vertical-align: top;
+ width: 25px !important;
+height: 25px !important;
+} 
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3>div.bottomSubMenu3{  
+margin-top: 7px;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock>div.bottomSubMenu3{  
+margin-top: 7px;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3>div.bottomSubMenu3>div.content{  
+display: inline-block;
+width: 23%;
+margin-left: 10px;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock>div.bottomSubMenu3>div.content{  
+display: inline-block;
+width: 23%;
+margin-left: 10px;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3>div.bottomSubMenu3>div.content>div.seprator1{  
+display: inline-block;
+font-size: 20px;
+font-weight: bold;
+color: #ef394e;
+margin-bottom: 8px;
+padding: 4px 0;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock>div.bottomSubMenu3>div.content>div.seprator1{  
+display: inline-block;
+font-size: 20px;
+font-weight: bold;
+color: #ef394e;
+margin-bottom: 8px;
+padding: 4px 0;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3>div.bottomSubMenu3>div.content>p{  
+display: inline-block;
+font-family: Yekan;
+font-size: 14px;
+margin-bottom: 8px;
+padding: 4px 0;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock>div.bottomSubMenu3>div.content>p{  
+display: inline-block;
+font-family: Yekan;
+font-size: 14px;
+margin-bottom: 8px;
+padding: 4px 0;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3>div.bottomSubMenu3>div.content>p>svg{  
+width: 25px !important;
+height: 25px !important;
+vertical-align: middle;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock>div.bottomSubMenu3>div.content>p>svg{  
+width: 25px !important;
+height: 25px !important;
+vertical-align: middle;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.subMenu3>div.bottomSubMenu3>div.content>a{  
+display: block;
+text-decoration: none;
+font-family: Yekan;
+font-size: 13px;
+margin-bottom: 8px;
+padding: 4px 0;
+color: #81858b;
+}
+header>div.bottom>div.bottomBottom>nav>div.headline>div.inHeadline>div.subMenu>div.subMenu2>div.title>div.inTitle>div.displayBlock>div.bottomSubMenu3>div.content>a{  
+display: block;
+text-decoration: none;
+font-family: Yekan;
+font-size: 13px;
+margin-bottom: 8px;
+padding: 4px 0;
+color: #81858b;
+}
+
+
+
+
+header > div.bottom > div.bottomBottom > nav > div.headline > div.city {
+  width: 180px;
+  height: 40px;
+  display: inline-block;
+  padding-right: 1px;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+}
+header > div.bottom > div.bottomBottom > nav > div.headline> div.city > a {
+  display: block;
+  width: auto;
+  height: inherit;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: Yekan;
+  text-decoration: none;
+  line-height: 40px;
+  color: #a1a3a8;
+  padding: 0 1px;
+}
+header > div.bottom > div.bottomBottom > nav > div.headline> div.city > a >svg{
+  vertical-align: middle;
+}

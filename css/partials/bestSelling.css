@@ -1,0 +1,145 @@
+div.bestSelling{
+    width: 100%;
+ height: 450px;
+ padding: 0 16px;
+}
+div.bestSelling>div.childbestSelling{
+    width: 99%;
+    height: inherit;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    padding: 16px 0;
+}
+div.bestSelling>div.childbestSelling>div.topbestSelling{
+    width: 1217px;
+    height: 44px;
+    padding: 0 20px;
+    text-align: center;
+}
+div.bestSelling>div.childbestSelling>div.topbestSelling>p{
+    font-family: Yekan;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 44px;
+    display: inline-block;
+}
+div.bestSelling>div.childbestSelling>div.topbestSelling>svg{
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 500px;
+}
+div.bestSelling>div.childbestSelling>div.topbestSelling>a{
+    width: 150px;
+    height: 44px;
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 14px;
+    margin-right: 330px;
+    display: inline-block;
+    line-height: 44px;
+    text-align: center;
+    vertical-align: top;
+    color: #19bfd3;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling{
+    width: 1217px;
+    height: 360px;
+    padding: 0 8px;
+    margin-top: 28px;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ flex $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.amazingItem {
+  flex-flow: column wrap;
+}
+.sizeSlide{
+    width: 400px !important;
+    height: 350px !important;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.firstbestSelling{
+      text-align: center;
+     margin-bottom: 5px;
+     border-bottom: 1px solid lightgray;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.firstbestSelling>a{
+text-decoration: none;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.firstbestSelling>a>img{
+    display: inline-block;
+    object-fit: contain;
+    width: 90px;
+    height: 90px;
+    vertical-align: middle;
+    
+    /* width: 25%; */
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.firstbestSelling>a>span{
+    font-family: shahriar;
+    color: #19bfd3;
+    font-size: 50px;
+    display: inline-block;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.firstbestSelling>a>p{
+    display: inline-block;
+    font-family: shahriar;
+    color: black;
+    font-size: 20px;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.secondbestSelling{
+    /* width: 100%;   */
+    text-align: center;
+     border-bottom: 1px solid lightgray;
+     margin-bottom: 5px;
+    }
+
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.secondbestSelling>a{
+    text-decoration: none;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.secondbestSelling>a>img{
+    display: inline-block;
+    object-fit: contain;
+    width: 90px;
+    height: 90px;
+    vertical-align: middle;
+    /* width: 25%; */
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.secondbestSelling>a>span{
+    font-family: shahriar;
+    color: #19bfd3;
+    font-size: 50px;
+    display: inline-block;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.secondbestSelling>a>p{
+    display: inline-block;
+    font-family: shahriar;
+    color: black;
+    font-size: 20px;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.thirdbestSelling{
+    /* width: 100%;   */
+    text-align: center;
+     margin-bottom: 5px;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.thirdbestSelling>a{
+text-decoration: none;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.thirdbestSelling>a>img{
+    display: inline-block;
+    object-fit: contain;
+    width: 90px;
+    height: 90px;
+    vertical-align: middle;
+    /* width: 25%; */
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.thirdbestSelling>a>span{
+    font-family: shahriar;
+    color: #19bfd3;
+    font-size: 50px;
+    display: inline-block;
+}
+div.bestSelling>div.childbestSelling>div.bottombestSelling div.thirdbestSelling>a>p{
+    display: inline-block;
+    font-family: shahriar;
+    color: black;
+    font-size: 20px;
+}

@@ -1,0 +1,88 @@
+div.yourVisit{
+    width: 100%;
+    height: 455px;
+    padding: 20px
+}
+div.yourVisit>div.childyourVisit{
+    width: 99%;
+    height: 395px;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    text-align: center;
+}
+div.yourVisit>div.childyourVisit>div.visit1{
+    width: 303px;
+    height: inherit;
+    display: inline-block;
+    margin-right: -4px;
+    padding:10px 20px;
+    vertical-align: top;
+}
+div.yourVisit>div.childyourVisit>div.visit1>h4{
+    font-family: Yekan;
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 5px;
+}
+div.yourVisit>div.childyourVisit>div.visit1>p{
+    font-family: Yekan;
+    font-size: 10px;
+    text-align: right;
+    color: #81858b;
+    margin-bottom: 5px;
+
+}
+div.yourVisit>div.childyourVisit>div.visit1>div.visit1-1{
+    width:120px; 
+    height:135px ;
+    display: inline-block;
+    border-bottom: 1px solid lightgray;
+    margin-right: -4px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+div.yourVisit>div.childyourVisit>div.visit1>div.visit1-1>a{
+    width:inherit; 
+    height:135px ;
+}
+div.yourVisit>div.childyourVisit>div.visit1>div.visit1-1>a>img{
+    width: 110px;
+    height: 125px;
+}
+div.yourVisit>div.childyourVisit>div.visit1>div.visit1-2{
+    width:120px; 
+    height:135px ;
+    display: inline-block;
+    margin-right: -4px;
+    padding: 5px;
+    margin-top: -14px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+}
+div.yourVisit>div.childyourVisit>div.visit1>div.visit1-2>a{
+    width:inherit; 
+    height:135px ;
+}
+div.yourVisit>div.childyourVisit>div.visit1>div.visit1-2>a>img{
+    width: 110px;
+    height: 125px;
+}
+.borderleft{
+    border-left: 1px solid lightgray;
+
+}
+div.yourVisit>div.childyourVisit>div.visit1>a{
+    text-decoration: none;
+}
+
+div.yourVisit>div.childyourVisit>div.visit1>a>span{
+    font-family: Yekan;
+    font-size: 12px;
+    color:#19bfd3 ;
+    text-align: center;
+}
+div.yourVisit>div.childyourVisit>div.visit1>a>span>svg{
+    display: inline-block;
+vertical-align: top;
+}

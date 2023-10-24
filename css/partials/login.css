@@ -1,0 +1,161 @@
+@import "./setting.css";
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+div.login2 {
+  width: 400px;
+  height: 440px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  margin: 120px auto;
+  border-radius: 10px;
+}
+div.login2 > div.logo {
+  width: 100%;
+  /* height: 40px; */
+  text-align: center;
+  margin-bottom: 20px;
+}
+div.login2 > div.logo > svg {
+  margin-top: 15px;
+  transform: scale(1.3, 1.3);
+}
+div.login2>div.content{
+    width: inherit;
+    padding: 10px;
+    /* box-sizing: border-box; */
+}
+div.login2>div.content>span.login2{
+font-size: 19px;
+font-weight: bold;
+font-family: Yekan;
+
+}
+div.login2>div.content>p.login2{
+    margin-top: 30px;
+font-size: 14px;
+font-family: Yekan;
+}
+div.login2>div.tel{
+    width: inherit;
+    padding: 10px;
+    box-sizing: border-box;
+}
+div.login2>div.tel>p.tel1{
+    font-family: Yekan;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+div.login2>div.tel>input[type=text]{
+    width: 330px;
+    height: 45px;
+    border-color:#D32F2F;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-bottom: 5px;
+}
+div.login2>div.tel>p.tel2{
+ font-family: Yekan;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color: #D32F2F;
+}
+div.login2>div.enter{
+    width: inherit;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+div.login2>div.enter>a>input[type=submit]{
+    width: 330px;
+    height: 45px;
+    border-color:#D32F2F;
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px;
+    background-color: #EF4056;
+    color: white;
+ font-family: Yekan;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+div.login2>div.enter>p.enter{
+ font-family: Yekan;
+    font-size: 11px;
+    margin: 0 auto;
+}
+div.login2>div.enter>p.enter>a{
+text-decoration: none;
+color: #008EB2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div.base {
+  width: 400px;
+  height: 440px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+div.base > img {
+  margin-top: 30px;
+  width: 150px;
+}
+div.headtext > h1 {
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 30px;
+  font-family: yekan;
+  font-size: 20px;
+}
+div.headtext > h1 > span {
+  font-size: 25px;
+  font-weight: bold;
+}
+div.headtext > p {
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 30px;
+  font-family: yekan;
+  font-size: 12px;
+}
+div.input > p {
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 8px;
+  font-family: yekan;
+  font-size: 12px;
+}
+div.input > input {
+  width: 335px;
+  height: 48px;
+  border: 1px solid silver;
+  border-radius: 10px;
+  margin-top: 30px;
+} */

@@ -1,0 +1,114 @@
+div.selectedProduct{
+    width: 100%;
+    height: 843px;
+    padding: 0 16px;
+    margin: 20px 0;
+}
+div.selectedProduct>div.childselectedProduct{
+    width: 99%;
+    height: inherit;
+    padding: 16px 0;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+div.selectedProduct>div.childselectedProduct>div.topSelectedProduct{
+width: inherit;
+height: 77px;
+    margin-bottom: 8px;
+padding: 16px 0;
+text-align: center;
+margin: 0 auto;
+}
+div.selectedProduct>div.childselectedProduct>div.topSelectedProduct>h3{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Yekan;
+    font-size: 22px;
+    font-weight: bold;
+}
+div.selectedProduct>div.childselectedProduct>div.topSelectedProduct>svg{
+    vertical-align: middle;
+
+}
+.amazingItem {
+  flex-flow: column wrap;
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1{
+width:inherit;
+height: 250px;
+margin: 0 auto;
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub{
+width:197px;
+height: 250px;
+display: inline-block;
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub>div.imageSelected{
+width: 202px;
+height: 160px;
+margin-bottom: 4px;
+padding: 12px 8px;
+text-align: center;
+}
+
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub>div.imageSelected>a>img{
+width: 150px;
+height: 150px;
+display: inline-block;
+margin-top: -5px;
+object-fit: contain;
+
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub>div.priceSelected{
+width: 202px;
+height: 34px;
+text-align: center;
+direction: ltr;
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub>div.priceSelected>a{
+width: 202px;
+height: 34px;
+text-decoration: none;
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub>div.priceSelected>a>h4{
+  width:70%;
+/* height: 34px; */
+display: inline-block;
+font-family: shahriar;
+font-size: 25px;
+vertical-align: top;
+    margin-right: 0;
+
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub>div.priceSelected>a>h4>svg{
+transform: scale(1.5,1.5);
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub>div.priceSelected>a>h5{
+display: inline-block;
+  width: 22%;
+  font-family: Shahriar;
+  font-size: 15px;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: red;
+  height: 20px;
+  line-height: 9px;
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub>div.discountSelected{
+width: 202px;
+height: 26px;
+text-align: center;
+}
+div.selectedProduct>div.childselectedProduct>div.bottomSelectedProduct1>div.sub>div.discountSelected>a{
+text-decoration: line-through;
+font-family: shahriar;
+font-size: 25px;
+color: #c0c2c5;
+}
+.borderButtom{
+    border-bottom: 1px solid lightgray;
+}

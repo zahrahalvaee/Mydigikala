@@ -1,0 +1,58 @@
+div.readableSubjects{
+    width: 1272px;
+    height: 365px;
+    padding: 10px 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+div.readableSubjects>div.topReadable{
+    width: 1240px;
+    height: 66px;
+    padding: 16px 20px;
+    margin: 0 auto;
+    text-align: right;
+}
+div.readableSubjects>div.topReadable>h4{
+font-family: Yekan;
+display: inline-block;
+margin-left: 925px;
+vertical-align: middle;
+}
+div.readableSubjects>div.topReadable>a{
+text-decoration: none;
+font-family: Yekan;
+font-size: 14px;
+display: inline-block;
+vertical-align: middle;
+color:#19bfd3 ;
+}
+div.readableSubjects>div.topReadable>a>svg{
+    vertical-align: top;
+    fill: #19bfd3 !important;
+}
+div.readableSubjects>div.bottomReadable{
+    width: 299px;
+    height: 264px;
+    display: inline-block;
+    margin-right: 5px;
+  vertical-align: top;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+div.readableSubjects>div.bottomReadable>a{
+text-decoration: none;
+}
+div.readableSubjects>div.bottomReadable>a>img{
+    width: 297px;
+    height: 186px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+div.readableSubjects>div.bottomReadable>a>p{
+    width: 299px;
+    height: 52px;
+    margin: 8px 0;
+    padding: 0 16px;
+font-family: Yekan;
+font-size: 12px;
+}

@@ -1,0 +1,82 @@
+div.BuyGrouping{
+    width: 100%;
+    height: 470px;
+    /* background-color: aqua; */
+}
+div.BuyGrouping>div.BuyGroupingTop{
+    width: 255px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.BuyGrouping>div.BuyGroupingTop>h3{
+    font-family: Yekan;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 120px;
+}
+div.BuyGrouping>div.BuyGroupingBottom1{
+    width: inherit;
+    height: 160px;
+    /* background-color: cadetblue; */
+    text-align: center;
+/* padding-top: 20px; */
+}
+div.BuyGrouping>div.BuyGroupingBottom1>div{
+width: 115px;
+height: 115px;
+border-radius: 50%;
+display: inline-block;
+/* background-color: antiquewhite; */
+vertical-align: middle;
+margin: 0 30px;
+}
+div.BuyGrouping>div.BuyGroupingBottom1>div>a{
+width: 115px;
+height: 115px;
+text-decoration: none;
+}
+div.BuyGrouping>div.BuyGroupingBottom1>div>a>img{
+width: 115px;
+height: 115px;
+object-fit: cover;
+}
+div.BuyGrouping>div.BuyGroupingBottom1>div>a>p{
+font-family: Yekan;
+font-size: 11px;
+font-weight: bold;
+color: #2b2b2b;
+}
+div.BuyGrouping>div.BuyGroupingBottom2{
+    width: inherit;
+    height: 190px;
+    /* background-color: rgb(221, 120, 140); */
+    text-align: center;
+    padding-top:33px ;
+}
+div.BuyGrouping>div.BuyGroupingBottom2>div{
+    width: 115px;
+    height: 115px;
+    display: inline-block;
+    /* background-color: antiquewhite; */
+    border-radius: 50%;
+    margin: 0 40px;
+    vertical-align: middle;
+}
+
+div.BuyGrouping>div.BuyGroupingBottom2>div>a{
+  width: 115px;
+    height: 115px;
+    text-decoration: none;
+}
+div.BuyGrouping>div.BuyGroupingBottom2>div>a>img{
+  width: 115px;
+    height: 115px;
+    object-fit: cover;
+}
+div.BuyGrouping>div.BuyGroupingBottom2>div>a>p{
+font-family: Yekan;
+font-size: 11px;
+font-weight: bold;
+color: #2b2b2b;
+}

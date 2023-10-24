@@ -1,0 +1,21 @@
+div.bannerImage2{
+    width: 100%;
+    height: 275px;
+    text-align: center;
+    padding: 15px;
+}
+div.bannerImage2>div{
+    width: 600px;
+    height: 245px;
+    margin: 0 7px;
+    display: inline-block;
+}
+div.bannerImage2>div>a{
+    width: inherit;
+    height: inherit;
+}
+div.bannerImage2>div>a>img{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+}

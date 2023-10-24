@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Yekan;
+src: url(../../fonts/fa/IRANYekanWeb.eot);
+src: url(../../fonts/fa/IRANYekanWeb.ttf);
+src: url(../../fonts/fa/IRANYekanWeb.woff);
+src: url(../../fonts/fa/IRANYekanWeb.woff2);
+src: url(../../fonts/fa/IRANYekanBold.ttf);
+}
+@font-face{
+font-family: Shahriar;
+src: url(../../fonts/fa/ASalamat.eot);
+src: url(../../fonts/fa/ASalamat.ttf);
+src: url(../../fonts/fa/ASalamat.woff);
+src: url(../../fonts/fa/ASalamat.woff2);
+}
+@font-face{
+font-family: Shabnam;
+src: url(../../fonts/fa/shabnam/Shabnam-Bold.ttf);
+src: url(../../fonts/fa/shabnam/Shabnam-Light.ttf);
+src: url(../../fonts/fa/shabnam/Shabnam-Medium.ttf);
+src: url(../../fonts/fa/shabnam/Shabnam-Thin.ttf);
+src: url(../../fonts/fa/shabnam/Shabnam.ttf)
+
+}
+div.wrapper{
+    width: 100%;
+}
+:root{
+    --header:170px;
+}
+body , html{
+    scroll-behavior: smooth;
+}

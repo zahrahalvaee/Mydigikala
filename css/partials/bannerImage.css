@@ -1,0 +1,22 @@
+div.bannerImage{
+width: 100%;
+height: 330px;
+text-align: center;
+/* background-color: gold; */
+}
+div.bannerImage>div{
+width: 600px;
+height: 240px;
+display: inline-block;
+margin:0 7px;
+/* background-color: violet; */
+}
+div.bannerImage>div>a{
+width: 600px;
+height: 240px;
+}
+div.bannerImage>div>a>img{
+   width: 600px;
+height: 240px; 
+border-radius: 20px;
+}

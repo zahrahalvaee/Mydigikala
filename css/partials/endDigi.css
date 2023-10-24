@@ -1,0 +1,380 @@
+div.endDigi{
+    width: 1272px;
+    height: 1160px;
+border-top: 1px solid lightgray;
+margin-top: 30px;
+padding-top: 32px;
+}
+div.endDigi>div.childendDigi{
+    width: 1272px;
+    height: 965px;
+padding: 0 20px;
+}
+div.endDigi>div.childendDigi>div.topendDigi{
+    width: 1232px;
+    height: 40px;
+text-align: right;
+}
+div.endDigi>div.childendDigi>div.topendDigi>img{
+    display: inline-block;
+vertical-align: middle;
+margin-left:950px;
+}
+div.endDigi>div.childendDigi>div.topendDigi>a{
+   text-decoration: none; 
+     width: 139px;
+    height: 40px;
+   font-family: Yekan;
+   display: inline-block;
+text-align: center;
+line-height: 40px;
+border: 1px solid lightgray;
+border-radius: 10px;
+color: #a1a3a8;
+}
+div.endDigi>div.childendDigi>div.topendDigi>a>svg{
+vertical-align: middle;
+}
+div.endDigi>div.childendDigi>p{
+display: inline-block;
+font-family: shahriar;
+font-size: 20px;
+margin: 10px 0;
+color: #3f4064;
+}
+div.endDigi>div.childendDigi>div.seprator{
+display: inline-block;
+font-size: 16px;
+margin: 0 20px;
+}
+div.endDigi>div.childendDigi>div.imgEndDigi{
+    width: 238px;
+    height: 104px;
+padding: 12 0px;
+}
+div.endDigi>div.childendDigi>div.imgEndDigi{
+    width: 238px;
+    height: 104px;
+padding: 12 0px;
+display: inline-block;
+text-align: center;
+margin: 35px 0;
+}
+div.endDigi>div.childendDigi>div.imgEndDigi>a{
+    width: 238px;
+    height: 104px;
+    text-decoration: none;
+}
+div.endDigi>div.childendDigi>div.imgEndDigi>a>img{
+    width: 56px;
+    height: 56px;
+}
+div.endDigi>div.childendDigi>div.imgEndDigi>a>p{
+    margin: 5px 0;
+    font-family: shahriar;
+    font-size: 18px;
+    color: #3f4064;
+}
+div.endDigi>div.childendDigi>div.news1{
+  width:291px ;
+  height: 270px;
+display: inline-block;
+  vertical-align: top;
+}
+div.endDigi>div.childendDigi>div.news1>p{
+font-family: Yekan;
+font-size: 16px;
+font-weight: bold;
+color: #3f4064;
+margin-bottom: 10px;
+}
+div.endDigi>div.childendDigi>div.news1>a{
+font-family: Yekan;
+font-size: 15px;
+text-decoration: none;
+display: block;
+margin-bottom: 10px;
+color: #81858b;
+}
+div.endDigi>div.childendDigi>div.news2{
+  width:296px ;
+  height: 270px;
+display: inline-block;
+  vertical-align: top;
+}
+div.endDigi>div.childendDigi>div.news2>p{
+font-family: Yekan;
+font-size: 16px;
+font-weight: bold;
+color: #3f4064;
+margin-bottom: 10px;
+}
+div.endDigi>div.childendDigi>div.news2>a{
+font-family: Yekan;
+font-size: 15px;
+text-decoration: none;
+display: block;
+margin-bottom: 10px;
+color: #81858b;
+}
+div.endDigi>div.childendDigi>div.news3{
+  width: 290px; ;
+  height: 270px;
+display: inline-block;
+  vertical-align: top;
+}
+div.endDigi>div.childendDigi>div.news3>p{
+font-family: Yekan;
+font-size: 16px;
+font-weight: bold;
+color: #3f4064;
+margin-bottom: 10px;
+}
+div.endDigi>div.childendDigi>div.news3>a{
+font-family: Yekan;
+font-size: 15px;
+text-decoration: none;
+display: block;
+margin-bottom: 10px;
+color: #81858b;
+}
+div.endDigi>div.childendDigi>div.news4{
+  width: 333px; ;
+  height: 270px;
+display: inline-block;
+  vertical-align: top;
+}
+div.endDigi>div.childendDigi>div.news4>h4{
+font-family: Yekan;
+color: #3f4064;
+margin-bottom: 10px;   
+}
+div.endDigi>div.childendDigi>div.news4>div.imgNews4{
+   width: 322px; ;
+  height: 40px;
+display: inline-block;
+  text-align: right;
+margin-bottom: 10px;   
+}
+div.endDigi>div.childendDigi>div.news4>div.imgNews4>a{
+display: inline-block;
+text-decoration: none;
+}
+div.endDigi>div.childendDigi>div.news4>div.imgNews4>a>svg{
+  vertical-align: middle;
+transform: scale(1.5,1.5);
+  margin: 8px 5px;
+}
+div.endDigi>div.childendDigi>div.news4>form{
+   width: 323px; 
+  height: 48px;
+  padding: 0 8px;
+  margin-top: 32px;
+}
+div.endDigi>div.childendDigi>div.news4>form>input[type=email]{
+   width: 250px; 
+  height: 48px;
+  padding: 0 8px;
+  border-radius: 10px;
+        background-color: #F0F0F1;
+        outline: none;
+        border: none;
+
+}
+div.endDigi>div.childendDigi>div.news4>form>input[type=submit]{
+   width: 50px; 
+  height: 48px;
+        line-height: 40px;
+        color: gray;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        font-family: Yekan;
+        border-radius: 10px; 
+          outline: none;
+        border: none;
+}
+div.endDigi>div.childendDigi>div.news4>form>input[type=email]::placeholder{
+ font-family: Yekan;
+ color: gray;
+}
+div.endDigi>div.childendDigi>div.download{
+  width: 1232px;
+  height: 76px;
+  background-color: #3C4B6D;
+  margin: 28px 0;
+  padding: 8px 20px;
+  border-radius: 10px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+div.endDigi>div.childendDigi>div.download>img{
+  width: 44px;
+  height: 44px;
+ margin: 7px 0;
+
+}
+div.endDigi>div.childendDigi>div.download>h3{
+  display: inline-block;
+  color: #FFFFFF;
+ font-family: Yekan;
+ vertical-align: top;
+ margin: 15px 0;
+}
+div.endDigi>div.childendDigi>div.download>div.imgDownload{
+  display: inline-block;
+  width: 904px;
+  height: 60px;
+ vertical-align: top;
+ margin: 0px 17px;
+ text-align: left;
+}
+div.endDigi>div.childendDigi>div.download>div.imgDownload>a{
+text-decoration: none;
+}
+div.endDigi>div.childendDigi>div.download>div.imgDownload>a>img{
+  display: inline-block;
+  width: 142px;
+  height: 44px;
+ margin: 7px ;
+ vertical-align: bottom;
+ border-radius: 5px;
+ background-color: #FFFFFF;
+}
+.lastDownload{
+   width: 42px !important;
+  height: 44px !important;
+
+}
+div.endDigi>div.childendDigi>div.registery{
+   width: 1232px;
+  height: 225px;
+  padding: 32px 0;
+  overflow: hidden;
+  border-bottom: 1px solid lightgray;
+}
+div.endDigi>div.childendDigi>div.registery>div.rightregistery{
+   width: 841px;
+  height: 125px;
+  padding: 32px 0;
+  overflow: hidden;
+ display: inline-block;
+  margin-left: 32px;
+  margin-bottom: 10px;
+}
+div.endDigi>div.childendDigi>div.registery>div.rightregistery>h1{
+ font-family: Yekan;
+}
+div.endDigi>div.childendDigi>div.registery>div.rightregistery>p{
+ font-family: Yekan;
+ font-size: 12px;
+color: #81858b;
+}
+div.endDigi>div.childendDigi>div.registery>div.leftRegistery{
+   width: 351px;
+  height: 125px;
+  overflow: hidden;
+  padding: 10px 0;
+ display: inline-block;
+ text-align: center;
+ margin-bottom: 5px;
+}
+div.endDigi>div.childendDigi>div.registery>div.leftRegistery>div{
+   width: 109px;
+  height: 109px;
+  padding: 5px 0;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #FFFFFF;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+ text-align: center;
+}
+div.endDigi>div.childendDigi>div.registery>div.leftRegistery>div>a{
+  text-decoration: none;
+}
+div.endDigi>div.childendDigi>div.registery>div.leftRegistery>div>a>img{
+  width: 95px;
+  height: 95px;
+  padding: 16px;
+  vertical-align: bottom;
+}
+div.endDigi>div.childendDigi>div.registery>a{
+  text-decoration: none;
+}
+div.endDigi>div.childendDigi>div.registery>a>span{
+  font-family: Yekan;
+  font-size: 12px;
+  color: #19bfd3;
+}
+div.endDigi>div.childendDigi>div.registery>a>svg{
+ vertical-align: top;
+}
+div.endDigi>div.childendDigi>div.lastText{
+margin-top: 30px ;
+font-family: Yekan;
+font-size: 12px;
+color: #c0c2c5;
+text-align: center;
+}
+div.endDigi>div.lastTop{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background-color: lightgray;
+}
+div.endDigi>div.lastTop>div{
+  width: 159px;
+  height: 80px;
+  display: inline-block;
+  background-color: lightgray;
+  text-decoration: none;
+  padding-top:25px ;
+  margin-right: -4px;
+  text-align: center;
+  border: 0.5px solid gray;
+/* border: 0.5px solid gray; */
+}
+div.endDigi>div.lastTop>div>a>img{
+  width: 105px;
+  height: 30px;
+  vertical-align: middle;
+}
+.nonborderleft{
+  border-left: none !important;
+}
+div.endDigi>div.lastBottom{
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  background-color: lightgray;
+}
+div.endDigi>div.lastBottom>div{
+  width: 179px;
+  height: 80px;
+  display: inline-block;
+  background-color: lightgray;
+  text-decoration: none;
+  padding-top:25px ;
+  margin-right: -4px;
+  text-align: center;
+  border: 0.5px solid gray;
+  border-top: none;
+}
+div.endDigi>div.lastTop>div>a>img{
+  width: 105px;
+  height: 30px;
+  vertical-align: middle;
+}
+.support{
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #EF4056;
+  position: fixed;
+  bottom: 5%;
+  left: 5%;
+  text-align: center;
+  padding-top: 12px;
+  cursor: pointer;
+}

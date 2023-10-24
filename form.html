@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @font-face {
+        font-family: Yekan;
+        src: url(./fonts/IRANYekanWeb.eot);
+        src: url(./fonts/IRANYekanWeb.ttf);
+        src: url(./fonts/IRANYekanWeb.woff);
+        src: url(./fonts/IRANYekanWeb.woff2);
+      }
+      div.form {
+        width: 90%;
+        padding: 40px;
+        box-sizing: border-box;
+        margin: 25px auto;
+        background-image: linear-gradient(45deg,rgb(0,0,0,0.2),rgb(0,0,0,0.9));
+        color: whitesmoke;
+      }
+      form {
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      label {
+        display: inline-block;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        font-family: Yekan;
+      }
+      input[type="text"],
+      input[type="password"],
+      textarea {
+        width: 50%;
+        display: block;
+        height: 40px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        transition: 300ms;
+        border: none;
+        padding-right: 10px;
+        box-sizing: border-box;
+        outline: none;
+        direction: rtl;
+        font-family: Yekan;
+      }
+      textarea {
+        height: 115px;
+        resize: none;
+        /* font-family: Yekan;
+        direction: rtl;
+        padding-right: 30px; */
+      }
+      input[type="text"]:focus,
+      input[type="password"]:focus,
+      textarea:focus {
+        width: 100%;
+        background-color: #4b4b4b;
+        box-shadow: 5px 5px 10px #ffffff;
+        border: none;
+        color: whitesmoke;
+        font-size: 14px;
+        /* font-family: Yekan; */
+        outline: none;
+      }
+      input[type="password"]:focus {
+        direction: ltr;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      input[type="password"]::placeholder,
+      textarea::placeholder,
+      input[type="text"]::placeholder {
+        text-align: center;
+        color: lime;
+      }
+input[type="password"]:focus::placeholder,
+      textarea:focus::placeholder,
+      input[type="text"]:focus::placeholder {
+        color: whitesmoke;
+        font-family: Yekan;
+      }
+      input[type="submit"] {
+        all: unset;
+        display: block;
+        width: 20%;
+        margin: 0 auto;
+        background-color: green;
+        line-height: 40px;
+        color: whitesmoke;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        font-family: Yekan;
+        transition: 300ms;
+      }
+      input[type="submit"]:hover {
+        background-color: deeppink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <form action="#" method="post">
+        <label for="username">نام کاربری</label>
+        <input
+          type="text"
+          name="username"
+          placeholder="نام کاربری"
+          id="username"
+        />
+        <label for="password">رمز عبور</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="رمز عبور"
+          id="password"
+        />
+        <label for="comment">توضیحات</label>
+        <textarea name="comment" id="comment" placeholder="توضیحات"> </textarea>
+        <input type="submit" value="ثبت"  />
+      </form>
+    </div>
+  </body>
+</html>

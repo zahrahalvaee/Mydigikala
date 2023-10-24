@@ -1,0 +1,159 @@
+div.amazing {
+  width: 100%;
+  height: 320px;
+  padding: 5px;
+  /* box-sizing: border-box; */
+}
+div.amazing > div.childamazing {
+  width: 97%;
+  height: 300px;
+  background-color: #ef3b50;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 1px;
+  border-radius: 15px;
+  border-left: 1px solid #ef3b50;
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ flex $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+.amazingItem {
+  flex-flow: column wrap;
+}
+
+div.amazing > div.childamazing div.image {
+  text-align: center;
+  margin-bottom: 5px;
+  /* margin-top: -20px; */
+}
+
+div.amazing > div.childamazing div.image > a > img {
+  display: inline-block;
+  width: 80%;
+}
+div.amazing > div.childamazing div.price {
+  width: 100%;
+  direction: ltr;
+ text-align: center;
+  /* background-color: aqua; */
+}
+
+div.amazing > div.childamazing div.price > a  {
+text-decoration: none;
+padding-right: 10px;
+text-align: center;
+}
+
+.swiper-slide{
+  /* padding:10px ; */
+}
+div.amazing > div.childamazing div.price > a > h4 {
+  display: inline-block;
+  width:70%;
+  font-family: Shahriar;
+  font-size: 25px;
+    margin-right: 0;
+
+}
+div.amazing > div.childamazing div.price > a > h4>svg {
+  transform: scale(1.5,1.5);
+}
+
+div.amazing > div.childamazing div.price > a > h5 {
+  display: inline-block;
+  width: 22%;
+  font-family: Shahriar;
+  font-size: 15px;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: red;
+  height: 20px;
+  line-height: 9px;
+}
+div.amazing > div.childamazing div.discount {
+  width: 100%;
+  text-align: left;
+  padding-left: 60px;
+  font-family: Shahriar;
+  font-size: 30px;
+}
+div.amazing > div.childamazing div.discount >a{
+  text-decoration: line-through;
+  color: gray;
+}
+.removeBg{
+  background-color: transparent;
+}
+.amazingImage1{
+  width: 90px !important;
+  height: 90px !important;
+  margin-top: 20px !important;
+  margin-bottom: 0 !important;
+  display: block !important;
+
+}
+.amazingImage2{
+  width: 90px !important;
+  height: 90px !important;
+ margin-top: 20px !important;
+  margin-bottom: 0 !important;
+  display: block !important;
+}
+.firstH4{
+  color: whitesmoke;
+  font-family: Yekan;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.firstH4{
+  text-decoration: none;
+}
+.lastSvg{
+  width: 50px !important;
+  height: 50px !important;
+  border: 2px solid #19bfd3;
+border-radius: 50%;
+text-align: center !important;
+}
+.lastH4{
+  color: #2b2b2b;
+  font-family: Yekan;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+.lastH4{
+  text-decoration: none;
+
+}
+
+.borderRadius{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+/* div.amazing>div.childamazing>div.swiper ,div.myAmazing{
+    width: 100%;
+    height: inherit;
+}
+div.amazing>div.childamazing>div.swiper .myAmazing>div.swiper-wrapper{
+     width: 100%;
+    height: inherit;
+}
+div.amazing>div.childamazing>div.swiper ,div.myAmazing>div.swiper-wrapper>div.swiper-slide ,div.amazingItem{
+        width: 100%;
+    height: inherit;
+} */
+/* div.amazing>div.childamazing>div.swiper ,div.myAmazing>div.swiper-wrapper>div.swiper-slide ,div.amazingItem >div.image{
+       width: 100%;
+    height: inherit;
+    text-align: center;
+} */
+
+/* div.amazing>div.childamazing>div.swiper ,div.myAmazing>div.swiper-wrapper>div.swiper-slide , div.amazingItem >div.image>a>img{
+width: 70%;
+display: inline-block;
+} */

@@ -1,0 +1,113 @@
+div.digiPlus{
+    width: 100%;
+    height: 455px;
+    padding: 10px;
+}
+div.digiPlus>div.childdigiPlus{
+    width: 99%;
+    height: 385px;
+    background-color: #941B80;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+div.digiPlus>div.childdigiPlus>div.leftdigiplus{
+    width: 355px;
+    height: inherit;
+    padding: 10px;
+    background-image: url(../../images/digiplus/left.png);
+    background-size: 372px 279px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: inline-block;
+}
+div.digiPlus>div.childdigiPlus>div.leftdigiplus>a{
+width: inherit;
+height: inherit;
+}
+div.digiPlus>div.childdigiPlus>div.leftdigiplus>a>img{
+    width: 128px;
+height: 32px ;
+object-fit: contain;
+margin-bottom: 4px;
+}
+div.digiPlus>div.childdigiPlus>div.leftdigiplus>p{
+    font-size: 14px;
+    font-family: Yekan;
+    color: #fff;
+margin-bottom: 15px;
+}
+div.digiPlus>div.childdigiPlus>div.leftdigiplus>button{
+    width: 110px;
+    height: 35px;
+    cursor: pointer;
+    font-family: Yekan;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+div.digiPlus>div.childdigiPlus>div.leftdigiplus>button>svg{
+    vertical-align: middle;
+}
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus{
+width: 830px;
+height: 345px;
+background-color: #fff;
+display: inline-block;
+margin-right: -4px;
+vertical-align: top;
+margin-top: 20px;
+border-radius: 10px;
+    padding: 15px;
+
+}
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus>div.topRightdigiPlus{
+    width: 790px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus>div.topRightdigiPlus>h4{
+    font-family: Yekan;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 490px;
+    margin-right: 30px;
+    vertical-align:middle;
+}
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus>div.topRightdigiPlus>h4>svg{
+    vertical-align:middle;
+
+}
+
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus>div.topRightdigiPlus>a{
+    text-decoration: none;
+    font-family: Yekan;
+    font-size: 15px;
+    vertical-align:middle;
+    display: inline-block;
+    text-align: left;
+}
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus>div.topRightdigiPlus>a>svg{
+    vertical-align:top;
+}
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus>.bottomRightdigiPlus{
+    width: 780px;
+    height:140px ;
+    margin: 0 auto;
+    padding: 10px;
+}
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus>.bottomRightdigiPlus>div{
+    width: 123px;
+    height: 110px;
+    display: inline-block;
+    /* margin-right: -4px; */
+}
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus>.bottomRightdigiPlus>div>a{
+    width: 123px;
+    height: 110px;
+}
+div.digiPlus>div.childdigiPlus>div.rightdigiPlus>.bottomRightdigiPlus>div>a>img{
+    width: 123px;
+    height: 110px;
+    object-fit: contain;
+}
